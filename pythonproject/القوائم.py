@@ -1,0 +1,17 @@
+squares =[1,4,9,16,25]
+print (squares +[36,47])
+squares[0]=2
+print(squares)
+squares.append(125)
+print(squares)
+squares.insert(2,0)
+print(squares)
+squares.pop(2)
+print(squares)
+squares.remove(125)
+print(squares)
+print(squares.index(16))
+squares.sort(reverse=True)
+print(squares)
+squares.clear()
+print(squares)
